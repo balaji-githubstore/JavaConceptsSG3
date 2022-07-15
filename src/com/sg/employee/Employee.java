@@ -6,6 +6,12 @@ public class Employee {
 	public double empSalary;
 	public static String companyName;
 	
+//	public Employee(int empId)
+//	{
+//		this.empId=empId;
+//	}
+	
+	
 	public static void displayEmployeeDetail(Employee x)
 	{
 		System.out.println(x);
