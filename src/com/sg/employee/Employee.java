@@ -1,7 +1,7 @@
 package com.sg.employee;
 
 public class Employee {
-	public int empId;
+	private int empId;
 	public String empName;
 	public double empSalary;
 	public static String companyName;
@@ -10,7 +10,7 @@ public class Employee {
 //	{
 //		this.empId=empId;
 //	}
-	
+//	
 	
 	public static void displayEmployeeDetail(Employee x)
 	{

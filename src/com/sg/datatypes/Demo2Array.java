@@ -39,6 +39,8 @@ public class Demo2Array {
 		browsers[1]="firefox";
 		browsers[2]="edge";
 		
+		
+		
 		System.out.println(browsers);
 		System.out.println(browsers[0]);
 		

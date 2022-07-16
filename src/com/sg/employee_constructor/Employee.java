@@ -10,7 +10,7 @@ public class Employee {
 	{
 		System.out.println("Object created");
 	}
-	
+//	
 	public Employee(int empId)
 	{
 		this.empId=empId;

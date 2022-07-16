@@ -1,8 +1,12 @@
 package com.sg.employee;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class EmployeeTest {
 
 	public static void main(String[] args) {
+		
 		
 		
 		Employee.companyName="SG";
@@ -18,11 +22,11 @@ public class EmployeeTest {
 		System.out.println(emp2);
 		System.out.println(emp3);
 			
-		emp1.empId=101;
+//		emp1.empId=101;
 		emp1.empName="John";
-		emp1.empSalary=5600.20;
+		emp1.empSalary=-5600.20;
 	
-		emp2.empId=102;
+//		emp2.empId=102;
 		emp2.empName="Peter";
 		emp2.empSalary=600;
 		
@@ -50,6 +54,14 @@ public class EmployeeTest {
 		
 	//	Employee.displayEmployeeDetail(Employee.getEmployeeInstance());
 		
+		Employee.getEmployeeInstance().printEmployeeDetail();
+		
+		List<Employee> employees=new ArrayList<Employee>();
+		
+		employees.add(emp1);
+		employees.add(Employee.getEmployeeInstance());
+		
+		System.out.println();
 	}
 
 }
