@@ -2,7 +2,7 @@ package com.sg.oops;
 
 import javax.print.Doc;
 
-class Doctor
+ class Doctor
 {
 	public int docId;
 	public String name;
