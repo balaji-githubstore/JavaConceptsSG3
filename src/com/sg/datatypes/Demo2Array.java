@@ -48,6 +48,11 @@ public class Demo2Array {
 		System.out.println(arr2[2]);
 		
 		String[] browsers1= {"ff","ch","edge"};
+		
+		Object[] arr5=new Object[3];
+		arr5[0]=45;
+		arr5[1]=45.2;
+		arr5[2]="hello";
 	}
 
 }
